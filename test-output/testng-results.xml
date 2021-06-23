@@ -2,22 +2,22 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="60" started-at="2021-05-15T11:28:59Z" finished-at="2021-05-15T11:28:59Z">
+  <suite name="Default suite" duration-ms="45" started-at="2021-06-21T13:50:16Z" finished-at="2021-06-21T13:50:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="60" started-at="2021-05-15T11:28:59Z" finished-at="2021-05-15T11:28:59Z">
+    <test name="Default test" duration-ms="45" started-at="2021-06-21T13:50:16Z" finished-at="2021-06-21T13:50:16Z">
       <class name="demo.Poc.Testcases.TC_LoginTest_001">
-        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:demo.Poc.Testcases.TC_LoginTest_001@204f30ec]" name="setup" is-config="true" duration-ms="0" started-at="2021-05-15T11:28:59Z" finished-at="2021-05-15T11:28:59Z">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:demo.Poc.Testcases.TC_LoginTest_001@204f30ec]" name="setup" is-config="true" duration-ms="0" started-at="2021-06-21T13:50:16Z" finished-at="2021-06-21T13:50:16Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\Devendra.Mahulkar\AppData\Local\Temp\testng-eclipse-1780678514\testng-customsuite.xml]]>
+in C:\Users\Devendra.Mahulkar\AppData\Local\Temp\testng-eclipse-304684857\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\Devendra.Mahulkar\AppData\Local\Temp\testng-eclipse-1780678514\testng-customsuite.xml
+in C:\Users\Devendra.Mahulkar\AppData\Local\Temp\testng-eclipse-304684857\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:290)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 at org.testng.internal.Parameters.createParameters(Parameters.java:620)
@@ -47,17 +47,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="loginTest()[pri:0, instance:demo.Poc.Testcases.TC_LoginTest_001@204f30ec]" name="loginTest" duration-ms="0" started-at="2021-05-15T11:28:59Z" finished-at="2021-05-15T11:28:59Z">
+        <test-method status="SKIP" signature="loginTest()[pri:0, instance:demo.Poc.Testcases.TC_LoginTest_001@204f30ec]" name="loginTest" duration-ms="0" started-at="2021-06-21T13:50:16Z" finished-at="2021-06-21T13:50:16Z">
           <exception class="org.testng.TestNGException">
             <message>
               <![CDATA[
 Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\Devendra.Mahulkar\AppData\Local\Temp\testng-eclipse-1780678514\testng-customsuite.xml]]>
+in C:\Users\Devendra.Mahulkar\AppData\Local\Temp\testng-eclipse-304684857\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.TestNGException: 
 Parameter 'browser' is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\Devendra.Mahulkar\AppData\Local\Temp\testng-eclipse-1780678514\testng-customsuite.xml
+in C:\Users\Devendra.Mahulkar\AppData\Local\Temp\testng-eclipse-304684857\testng-customsuite.xml
 at org.testng.internal.Parameters.createParams(Parameters.java:290)
 at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
 at org.testng.internal.Parameters.createParameters(Parameters.java:620)
@@ -87,7 +87,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="SKIP" signature="tearDown()[pri:0, instance:demo.Poc.Testcases.TC_LoginTest_001@204f30ec]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-05-15T11:28:59Z" finished-at="2021-05-15T11:28:59Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:demo.Poc.Testcases.TC_LoginTest_001@204f30ec]" name="tearDown" is-config="true" duration-ms="0" started-at="2021-06-21T13:50:16Z" finished-at="2021-06-21T13:50:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
