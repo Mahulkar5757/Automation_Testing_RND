@@ -19,7 +19,7 @@ public class HomePage {
 	@FindBy(xpath="//body[1]/nav[1]/ul[1]/li[3]/a[1]/i[1]")
 	@CacheLookup
 	WebElement btnSyneTime;
-	
+	//Cheing the Code for testing Git and Comint
 	
 	
 	public void clickSyneTime()

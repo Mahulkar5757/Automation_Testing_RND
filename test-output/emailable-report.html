@@ -8,65 +8,173 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">45</td><td></td><td></td></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">POC Test</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">5,019</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">demo.Poc.Testcases.TC_LoginTest_001</td><td><a href="#m0">setup</a></td><td rowspan="1">1624283416833</td><td rowspan="1">0</td></tr><tr><th colspan="4">Default test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">demo.Poc.Testcases.TC_LoginTest_001</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1624283416863</td><td rowspan="1">0</td></tr><tr><th colspan="4">Default test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">demo.Poc.Testcases.TC_LoginTest_001</td><td><a href="#m2">loginTest</a></td><td rowspan="1">1624283416857</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">POC Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">demo.Poc.Testcases.TC_LoginTest_001</td><td><a href="#m0">setup</a></td><td rowspan="1">1624457147870</td><td rowspan="1">4789</td></tr><tr><th colspan="4">POC Test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">demo.Poc.Testcases.TC_LoginTest_001</td><td><a href="#m1">tearDown</a></td><td rowspan="1">1624457152691</td><td rowspan="1">0</td></tr><tr><th colspan="4">POC Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">demo.Poc.Testcases.TC_LoginTest_001</td><td><a href="#m2">loginTest</a></td><td rowspan="1">1624457152676</td><td rowspan="1">0</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">demo.Poc.Testcases.TC_LoginTest_001#setup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\Devendra.Mahulkar\AppData\Local\Temp\testng-eclipse-304684857\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:290)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>POC Test</h2><h3 id="m0">demo.Poc.Testcases.TC_LoginTest_001#setup</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=91.0.4472.77)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;SYPULJ53WZ93&apos;, ip: &apos;192.168.1.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0103C013+2474003]
+	Ordinal0 [0x00FD29C1+2042305]
+	Ordinal0 [0x00EE2F68+1060712]
+	Ordinal0 [0x00ED6214+1008148]
+	Ordinal0 [0x00ED56E3+1005283]
+	Ordinal0 [0x00ED4258+1000024]
+	Ordinal0 [0x00ED3DA5+998821]
+	Ordinal0 [0x00EDF164+1044836]
+	Ordinal0 [0x00ED3D31+998705]
+	Ordinal0 [0x00ED4FAF+1003439]
+	Ordinal0 [0x00ED4258+1000024]
+	Ordinal0 [0x00ED3DA5+998821]
+	Ordinal0 [0x00EDCDDA+1035738]
+	Ordinal0 [0x00ED3D31+998705]
+	Ordinal0 [0x00ED4FAF+1003439]
+	Ordinal0 [0x00ED4258+1000024]
+	Ordinal0 [0x00ED3DA5+998821]
+	Ordinal0 [0x00EDA929+1026345]
+	Ordinal0 [0x00ED3D31+998705]
+	Ordinal0 [0x00ED4FAF+1003439]
+	Ordinal0 [0x00ED4258+1000024]
+	Ordinal0 [0x00ED3DA5+998821]
+	Ordinal0 [0x00ED9DBC+1023420]
+	Ordinal0 [0x00ED3D31+998705]
+	Ordinal0 [0x00ED4FAF+1003439]
+	Ordinal0 [0x00ED4258+1000024]
+	Ordinal0 [0x00ED3DA5+998821]
+	Ordinal0 [0x00ECFA5D+981597]
+	Ordinal0 [0x00ED3D31+998705]
+	Ordinal0 [0x00ED3A85+998021]
+	Ordinal0 [0x00ED3829+997417]
+	Ordinal0 [0x00EE4090+1065104]
+	Ordinal0 [0x00F2B798+1357720]
+	Ordinal0 [0x00F28FAA+1347498]
+	Ordinal0 [0x00F266DB+1337051]
+	Ordinal0 [0x00F03427+1192999]
+	Ordinal0 [0x00F042EE+1196782]
+	Ordinal0 [0x00F04279+1196665]
+	GetHandleVerifier [0x011C96FC+1590332]
+	GetHandleVerifier [0x01278614+2306900]
+	GetHandleVerifier [0x010C9E93+543699]
+	GetHandleVerifier [0x010C92CE+540686]
+	Ordinal0 [0x00FD86BA+2066106]
+	Ordinal0 [0x00FDD1C8+2085320]
+	Ordinal0 [0x00FDD308+2085640]
+	Ordinal0 [0x00FE67F3+2123763]
+	BaseThreadInitThunk [0x776EFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77987A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77987A4E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at demo.Poc.Testcases.BaseClass.setup(BaseClass.java:45)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">demo.Poc.Testcases.TC_LoginTest_001#tearDown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">demo.Poc.Testcases.TC_LoginTest_001#loginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.testng.TestNGException: 
-Parameter &apos;browser&apos; is required by BeforeClass on method setup but has not been marked @Optional or defined
-in C:\Users\Devendra.Mahulkar\AppData\Local\Temp\testng-eclipse-304684857\testng-customsuite.xml
-	at org.testng.internal.Parameters.createParams(Parameters.java:290)
-	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:359)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:620)
-	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:190)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:209)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at org.testng.TestRunner.privateRun(TestRunner.java:648)
-	at org.testng.TestRunner.run(TestRunner.java:505)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-	at org.testng.TestNG.runSuites(TestNG.java:1049)
-	at org.testng.TestNG.run(TestNG.java:1017)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">demo.Poc.Testcases.TC_LoginTest_001#loginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created
+from disconnected: received Inspector.detached event
+  (Session info: chrome=91.0.4472.77)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;SYPULJ53WZ93&apos;, ip: &apos;192.168.1.108&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_291&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0103C013+2474003]
+	Ordinal0 [0x00FD29C1+2042305]
+	Ordinal0 [0x00EE2F68+1060712]
+	Ordinal0 [0x00ED6214+1008148]
+	Ordinal0 [0x00ED56E3+1005283]
+	Ordinal0 [0x00ED4258+1000024]
+	Ordinal0 [0x00ED3DA5+998821]
+	Ordinal0 [0x00EDF164+1044836]
+	Ordinal0 [0x00ED3D31+998705]
+	Ordinal0 [0x00ED4FAF+1003439]
+	Ordinal0 [0x00ED4258+1000024]
+	Ordinal0 [0x00ED3DA5+998821]
+	Ordinal0 [0x00EDCDDA+1035738]
+	Ordinal0 [0x00ED3D31+998705]
+	Ordinal0 [0x00ED4FAF+1003439]
+	Ordinal0 [0x00ED4258+1000024]
+	Ordinal0 [0x00ED3DA5+998821]
+	Ordinal0 [0x00EDA929+1026345]
+	Ordinal0 [0x00ED3D31+998705]
+	Ordinal0 [0x00ED4FAF+1003439]
+	Ordinal0 [0x00ED4258+1000024]
+	Ordinal0 [0x00ED3DA5+998821]
+	Ordinal0 [0x00ED9DBC+1023420]
+	Ordinal0 [0x00ED3D31+998705]
+	Ordinal0 [0x00ED4FAF+1003439]
+	Ordinal0 [0x00ED4258+1000024]
+	Ordinal0 [0x00ED3DA5+998821]
+	Ordinal0 [0x00ECFA5D+981597]
+	Ordinal0 [0x00ED3D31+998705]
+	Ordinal0 [0x00ED3A85+998021]
+	Ordinal0 [0x00ED3829+997417]
+	Ordinal0 [0x00EE4090+1065104]
+	Ordinal0 [0x00F2B798+1357720]
+	Ordinal0 [0x00F28FAA+1347498]
+	Ordinal0 [0x00F266DB+1337051]
+	Ordinal0 [0x00F03427+1192999]
+	Ordinal0 [0x00F042EE+1196782]
+	Ordinal0 [0x00F04279+1196665]
+	GetHandleVerifier [0x011C96FC+1590332]
+	GetHandleVerifier [0x01278614+2306900]
+	GetHandleVerifier [0x010C9E93+543699]
+	GetHandleVerifier [0x010C92CE+540686]
+	Ordinal0 [0x00FD86BA+2066106]
+	Ordinal0 [0x00FDD1C8+2085320]
+	Ordinal0 [0x00FDD308+2085640]
+	Ordinal0 [0x00FE67F3+2123763]
+	BaseThreadInitThunk [0x776EFA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77987A7E+286]
+	RtlGetAppContainerNamedObjectPath [0x77987A4E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:130)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at demo.Poc.Testcases.BaseClass.setup(BaseClass.java:45)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
